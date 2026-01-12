@@ -45,9 +45,10 @@ body {
 
 .product img {
   width: 100%;
-  height: 350px;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
 }
+
 
 .product-content {
   padding: 40px;
