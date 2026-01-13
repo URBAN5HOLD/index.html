@@ -139,69 +139,8 @@
       <div class="subtitle">ثبات راقي. حضور قوي.</div>
 
       <div class="product-card">
-
-      <div class="container">
-
-  <div class="brand">Urban Hold</div>
-  <div class="subtitle">ثبات راقي. حضور قوي.</div>
-  <!-- المنتج الأول -->
-  <div class="product-card">
-    <img src="gel.jpg" alt="جيل تثبيت الشعر" class="product-image" />
-    <div class="title">جيل تثبيت الشعر</div>
-    <div class="desc">
-      تركيبة مدروسة بعناية لتمنحك ثباتًا قويًا ولمسة طبيعية، بدون قساوة أو آثار دهنية.
-    </div>
-    <ul class="features">
-      <li>✔ ثبات طويل طوال اليوم</li>
-      <li>✔ ملمس طبيعي بدون قساوة</li>
-      <li>✔ مناسب للاستعمال اليومي</li>
-    </ul>
-    <div class="price">35 درهم</div>
-    <a class="btn" href="https://wa.me/212600000000?text=سلام، بغيت نطلب جل تثبيت الشعر" target="_blank">
-      اطلب الآن عبر واتساب
-    </a>
-  </div>
-
-  <!-- المنتج الثاني -->
-  <div class="product-card">
-    <img src="spray.jpg" alt="سبراي تثبيت الشعر" class="product-image" />
-    <div class="title">سبراي تثبيت الشعر</div>
-    <div class="desc">
-      سبراي خفيف يعطيك ثبات متوسط ولمسة ناعمة للشعر مع حماية من الرطوبة.
-    </div>
-    <ul class="features">
-      <li>✔ ثبات متوسط وطبيعي</li>
-      <li>✔ حماية من الرطوبة</li>
-      <li>✔ مثالي للشعر القصير والطويل</li>
-    </ul>
-    <div class="price">40 درهم</div>
-    <a class="btn" href="https://wa.me/212600000000?text=سلام، بغيت نطلب سبراي تثبيت الشعر" target="_blank">
-      اطلب الآن عبر واتساب
-    </a>
-  </div>
-
-  <!-- المنتج الثالث -->
-  <div class="product-card">
-    <img src="wax.jpg" alt="واكس الشعر" class="product-image" />
-    <div class="title">واكس الشعر</div>
-    <div class="desc">
-      واكس غني لتشكيل الشعر بأشكال متعددة مع لمسة نهائية لامعة طبيعية.
-    </div>
-    <ul class="features">
-      <li>✔ تشكيل سهل ومرن</li>
-      <li>✔ لمسة لامعة طبيعية</li>
-      <li>✔ مناسب لجميع أنواع الشعر</li>
-    </ul>
-    <div class="price">45 درهم</div>
-    <a class="btn" href="https://wa.me/212600000000?text=سلام، بغيت نطلب واكس الشعر" target="_blank">
-      اطلب الآن عبر واتساب
-    </a>
-  </div>
-
-</div>
-
         <!-- بدّل الصورة بصورة المنتوج -->
-<img src="gel.jpg" alt="جيل تثبيت الشعر" class="product-image" />
+<img src="images/gel.jpg" alt="جيل تثبيت الشعر" class="product-image" />
 
         <div class="title">جيل تثبيت الشعر</div>
 
@@ -218,7 +157,7 @@
 
         <div class="price">35 درهم</div>
 
-        <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب Urban Hold" target="_blank">
+        <a class="btn" href="https://wa.me/212600000000?text=سلام، بغيت نطلب Urban Hold" target="_blank">
           اطلب الآن عبر واتساب
         </a>
       </div>
@@ -229,3 +168,4 @@
   </div>
 </body>
 </html>
+
