@@ -158,7 +158,7 @@
         <div class="price">35 درهم</div>
 
         <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب Urban Hold" target="_blank">
-
+        اطلب الآن عبر واتساب
         </a>
       </div>
     
