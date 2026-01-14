@@ -158,7 +158,7 @@ a:visited{
 
     <!-- MAIN PRODUCT -->
     <a href="https://wa.me/212691444558" class="card">
-      <img src="product1.jpg" alt="">
+      <img src="gel.jpg" alt="">
       <div class="card-content">
         <h3>Gel de fixation forte</h3>
         <p>
@@ -178,7 +178,7 @@ a:visited{
     <div class="products-bottom">
 
       <a href="https://wa.me/212691444558" class="card">
-        <img src="product2.jpg" alt="">
+        <img src="wax.jpg" alt="">
         <div class="card-content">
           <h3>Fixation moyenne</h3>
           <p>
@@ -195,7 +195,7 @@ a:visited{
       </a>
 
       <a href="https://wa.me/212691444558" class="card">
-        <img src="product3.jpg" alt="">
+        <img src="spray.jpg" alt="">
         <div class="card-content">
           <h3>Fixation légère</h3>
           <p>
