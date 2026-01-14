@@ -155,7 +155,7 @@
           <li>✔ مناسب للاستعمال اليومي</li>
         </ul>
         <div class="price">35 درهم</div>
-        <a class="btn" href="https://wa.me/212600000000?text=سلام، بغيت نطلب جيل تثبيت الشعر" target="_blank">
+        <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب جيل تثبيت الشعر" target="_blank">
           اطلب الآن عبر واتساب
         </a>
       </div>
