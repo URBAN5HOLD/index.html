@@ -175,7 +175,7 @@ footer{
 
     <!-- PRODUIT PRINCIPAL -->
     <div class="card card-main">
-      <img src="produit1.jpg" alt="Produit principal">
+      <img src="gel.jpg" alt="Produit principal">
       <a href="https://wa.me/212691444558" target="_blank"></a>
       <div class="card-content">
         <h3>Produit Signature</h3>
