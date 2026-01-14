@@ -5,61 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Urban Hold</title>
 
-  <!-- خط راقي -->
+  <!-- خطوط راقية -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Inter', sans-serif;
       direction: rtl;
       color: #111;
-      background: linear-gradient(180deg, #3a2a1f 0%, #6f4e37 35%, #c9a87a 70%, #f5f0e6 100%);
+      /* خلفية جميلة: صورة + gradient */
+      background: linear-gradient(180deg, rgba(58,42,31,0.85), rgba(245,240,230,0.95)), 
+                  url('background.jpg') center/cover no-repeat;
+      min-height: 100vh;
     }
 
     .overlay {
-      background: linear-gradient(180deg, rgba(0,0,0,0.45), rgba(0,0,0,0));
       min-height: 100vh;
       padding-bottom: 60px;
     }
 
     .container {
-      max-width: 430px;
+      max-width: 450px;
       margin: 0 auto;
-      padding: 40px 22px;
-      animation: fadeUp 1.2s ease forwards;
+      padding: 40px 20px;
     }
 
     @keyframes fadeUp {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     .brand {
       font-family: 'Playfair Display', serif;
       font-size: 34px;
-      letter-spacing: 1px;
       color: #fff;
       text-align: center;
-      margin-bottom: 25px;
+      margin-bottom: 10px;
     }
 
     .subtitle {
       text-align: center;
       color: #e8dccb;
       font-size: 14px;
-      margin-bottom: 35px;
+      margin-bottom: 30px;
     }
 
     .product-card {
@@ -67,41 +57,43 @@
       border-radius: 22px;
       padding: 22px;
       box-shadow: 0 25px 60px rgba(0,0,0,0.25);
+      margin-bottom: 20px;
+      animation: fadeUp 1.2s ease forwards;
     }
 
     .product-image {
       width: 100%;
       border-radius: 16px;
-      margin-bottom: 18px;
+      margin-bottom: 15px;
     }
 
     .title {
       font-family: 'Playfair Display', serif;
       font-size: 22px;
-      margin-bottom: 10px;
+      margin-bottom: 8px;
     }
 
     .desc {
       font-size: 14.5px;
-      line-height: 1.8;
+      line-height: 1.7;
       color: #444;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
 
     .features {
       list-style: none;
-      margin-bottom: 22px;
+      margin-bottom: 15px;
     }
 
     .features li {
-      margin-bottom: 8px;
+      margin-bottom: 5px;
       font-size: 14px;
     }
 
     .price {
       font-size: 20px;
       font-weight: 600;
-      margin-bottom: 22px;
+      margin-bottom: 15px;
     }
 
     .btn {
@@ -129,6 +121,18 @@
       margin-top: 25px;
     }
 
+    /* ترتيب المنتجات الثانية والثالثة */
+    .product-row {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product-row .product-card:nth-child(1) { animation-delay: 0.3s; }
+    .product-row .product-card:nth-child(2) { animation-delay: 0.6s; }
+
   </style>
 </head>
 <body>
@@ -138,71 +142,66 @@
       <div class="brand">Urban Hold</div>
       <div class="subtitle">ثبات راقي. حضور قوي.</div>
 
+      <!-- المنتج الأول -->
       <div class="product-card">
-        <!-- بدّل الصورة بصورة المنتوج -->
-<img src="gel.jpg" alt="جيل تثبيت الشعر" class="product-image" />
-
+        <img src="gel.jpg" alt="جيل تثبيت الشعر" class="product-image" />
         <div class="title">جيل تثبيت الشعر</div>
-
         <div class="desc">
           تركيبة مدروسة بعناية لتمنحك ثباتًا قويًا ولمسة طبيعية، بدون قساوة أو آثار دهنية.
-          اختيار الرجال الذين يهتمون بأدق التفاصيل.
         </div>
-
         <ul class="features">
           <li>✔ ثبات طويل يدوم طوال اليوم</li>
           <li>✔ ملمس طبيعي بدون قساوة</li>
           <li>✔ مناسب للاستعمال اليومي</li>
         </ul>
-
         <div class="price">35 درهم</div>
-
-        <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب Urban Hold" target="_blank">
-        اطلب الآن عبر واتساب
+        <a class="btn" href="https://wa.me/212600000000?text=سلام، بغيت نطلب جيل تثبيت الشعر" target="_blank">
+          اطلب الآن عبر واتساب
         </a>
-  
+      </div>
 
-  </div> <!-- نهاية الصف تحت -->
+      <!-- المنتجات الثانية والثالثة -->
+      <div class="product-row">
+        <!-- المنتج الثاني -->
+        <div class="product-card">
+          <img src="spray.jpg" alt="سبراي تثبيت الشعر" class="product-image" />
+          <div class="title">سبراي تثبيت الشعر</div>
+          <div class="desc">
+            سبراي خفيف يعطيك ثبات متوسط ولمسة ناعمة للشعر مع حماية من الرطوبة.
+          </div>
+          <ul class="features">
+            <li>✔ ثبات متوسط وطبيعي</li>
+            <li>✔ حماية من الرطوبة</li>
+            <li>✔ مثالي للشعر القصير والطويل</li>
+          </ul>
+          <div class="price">40 درهم</div>
+          <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب سبراي تثبيت الشعر" target="_blank">
+            اطلب الآن عبر واتساب
+          </a>
+        </div>
 
-</div> <!-- نهاية container -->
-
-<div class="product-row">
-  <!-- المنتج الثاني -->
-  <div class="product-card">
-    <img src="spray.jpg" alt="سبراي تثبيت الشعر" class="product-image" />
-    <div class="title">سبراي تثبيت الشعر</div>
-    <div class="desc">
-      سبراي خفيف يعطيك ثبات متوسط ولمسة ناعمة للشعر مع حماية من الرطوبة.
-    </div>
-    <ul class="features">
-      <li>✔ ثبات متوسط وطبيعي</li>
-      <li>✔ حماية من الرطوبة</li>
-      <li>✔ مثالي للشعر القصير والطويل</li>
-    </ul>
-    <div class="price">40 درهم</div>
-    <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب سبراي تثبيت الشعر" target="_blank">
-      اطلب الآن عبر واتساب
-    </a>
-  </div>
-
-  <!-- المنتج الثالث -->
-  <div class="product-card">
-    <img src="wax.jpg" alt="واكس الشعر" class="product-image" />
-    <div class="title">واكس الشعر</div>
-    <div class="desc">
-      واكس غني لتشكيل الشعر بأشكال متعددة مع لمسة نهائية لامعة طبيعية.
-    </div>
-    <ul class="features">
-      <li>✔ تشكيل سهل ومرن</li>
-      <li>✔ لمسة لامعة طبيعية</li>
-      <li>✔ مثالي للشعر القصير والطويل</li>
-    </ul>
-    <div class="price">45 درهم</div>
-    <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب واكس الشعر" target="_blank">
-      اطلب الآن عبر واتساب
-    </a>
-  </div>
-</div>
+        <!-- المنتج الثالث -->
+        <div class="product-card">
+          <img src="wax.jpg" alt="واكس الشعر" class="product-image" />
+          <div class="title">واكس الشعر</div>
+          <div class="desc">
+            واكس غني لتشكيل الشعر بأشكال متعددة مع لمسة نهائية لامعة طبيعية.
+          </div>
+          <ul class="features">
+            <li>✔ تشكيل سهل ومرن</li>
+            <li>✔ لمسة لامعة طبيعية</li>
+            <li>✔ مثالي للشعر القصير والطويل</li>
+          </ul>
+          <div class="price">45 درهم</div>
+          <a class="btn" href="https://wa.me/212691444558?text=سلام، بغيت نطلب واكس الشعر" target="_blank">
+            اطلب الآن عبر واتساب
+          </a>
+        </div>
+      </div>
 
       <div class="note">توصيل لجميع المدن المغربية</div>
 
+    </div>
+  </div>
+</body>
+</html>
